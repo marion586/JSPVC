@@ -1,0 +1,49 @@
+body {
+	background-color: #111;
+	color: #fff;
+}
+
+table, td  {
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid white;
+}
+
+th {
+	border: none;
+}
+
+.inputTableau {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	background-color: #111;
+	color: #fff;
+	border: none;
+}
+
+.cellule{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background-color: #111;
+	color: #fff;
+}
+
+#miniCo{
+	color: red;
+}
+
+.miniLi{
+	color: red;
+}
+
+.mena{
+	background-color: red;
+}
+
+.rouge{
+	color: red;
+}

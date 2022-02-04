@@ -1,0 +1,42 @@
+
+footer {
+	width: 100%;
+	float: left;
+}
+
+footer.footer-box p {
+    font-size: 17px;
+}
+
+.menu_footer li a {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu_footer li {
+    margin: 3px 0;
+    color: white;
+    
+}
+
+.footer-box {
+    margin-top: 16px;
+    background: #2a8dca;
+    padding: 50px 0;
+}
+
+
+footer.footer-box h3 {
+    font-size: 30px;
+    border-bottom: solid #4ed385 4px;
+    margin-bottom: 25px;
+}
+.full h3{
+    color: white;
+}
+span{
+    color: white;
+}
+
+

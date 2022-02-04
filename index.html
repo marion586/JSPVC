@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script type="text/javascript" src="js/js.js"></script>
+    <script src="js/go.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/all.css">
+    <title>PVC</title>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <center><h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">PROBLEME DE VOYAGEUR DE COMMERCE</h1></center>
+                <center>
+                    <div id="divInformation">
+                    <button class="btn btn-primary" onclick="ajouter()"><span class="fa fa-plus "></span> Ajouter</button>
+                    <button class="btn btn-info" onclick="obtenirElementsDuTableau()"><span class="fa fa-table "></span> Obternir element du tableau</button>
+                    <button class="btn btn-info" onclick="changerTableau()"> <span class="fa fa-table "></span> Changer Tableau</button>
+        
+                    <button class="btn btn-secondary" onclick="miniCo()"> <span class="fas fa-sort-numeric-down"></span> MiniCo</button>
+                   
+                    <button class="btn btn-secondary" onclick="miniLi()">MiniLi</button>
+                    <button class="btn" onclick="regret()"> <span class="fa fa-renren "></span> Regret</button>
+                    <button class="btn" onclick="marquerZero()"> <span class="fa fa-creative-commons-zero "></span> Marquer Zero</button>
+        
+                    <button class="btn btn-danger" onclick="supprimerLigneColonneChemin()"><span class="fa fa-trash "></span> Suppr</button>
+                    <button class="btn btn-success" onclick="resultatFinal()"> resultat</button>
+                </div></center>
+
+        </div>
+       
+       <br>
+    </div>
+    <div class="container-fluid">
+        <div id="divTableau"></div>
+        <div style="display: inline-block;"></div>
+        <div id="myDiagramDiv" style="width:100%; height:400px; background-color: #DAE4E4;"></div>
+        <div id="myDiagramDiv2" style="width:100%; height:400px; background-color: #DAE4E4;"></div>
+    </div>
+
+    <footer class="footer-box">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12 white_fonts">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="full">
+                                <h3>Auteur</h3>
+                            </div>
+                            <div class="full">
+                                <ul class="menu_footer">
+                                    <li>Sileny Tsarandro Paul</li>
+                                    <li>Rakotomandimby Menye Marion</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full">
+                             <h3>Unité d'enseignement</h3>
+                             <div class="full">
+                                <ul class="menu_footer">
+                                    <li style="list-style-type: none">RECHERCHE OPERATIONNELLE</li>
+                                    
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full">
+                             <h3> Contact</h3>
+                                <ul class="full">
+                                    <li ><img src="Include/images/i7.png"><span>  034 33 790 87</span></li>
+                                    <li><img src="Include/images/i7.png"><span>  034 73 519 27</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+             </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
